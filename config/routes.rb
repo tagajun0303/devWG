@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'home/index'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-  resources :home, only: [:batch]
+  # resources :home, only: [:batch]
+  get 'home/batch'
 end
