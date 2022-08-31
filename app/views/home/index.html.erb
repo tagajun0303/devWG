@@ -1,6 +1,16 @@
+<script>
+      window.addEventListener("load",function(){
+        var ele=document.getElementsByTagName("output")[0];
+        setInterval(function(){
+          var date= new Date();
+          ele.innerHTML=date;
+        },100);
+      },false)
+</script>
 <%= render 'component/header' %>
 <div class="main">
     <p>いま22じ22ふん</p>
+    <output></output>
     <img src="https://www.shoshinsha-design.com/wp-content/uploads/2020/05/noimage-760x460.png">
     <%= button_to "おす", {controller: 'home', action: 'batch'}, {method: :get} %>
 </div>
