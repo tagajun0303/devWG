@@ -2,7 +2,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/locale/ja.js"></script>
 <script>
       window.addEventListener("load",function(){
-        let ele = document.getElementsById("timer");
+        let ele = document.getElementsByTagName("output")[0];
         setInterval(function(){
             let date = moment().format("いまHHじmmふんss");
             ele.innerHTML = date;
@@ -11,7 +11,6 @@
 </script>
 <%= render 'component/header' %>
 <div class="main">
-    <p id="timer">いま22じ22ふん</p>
     <output></output>
     <img src="https://www.shoshinsha-design.com/wp-content/uploads/2020/05/noimage-760x460.png">
     <%= button_to "おす", {controller: 'home', action: 'batch'}, {method: :get} %>
