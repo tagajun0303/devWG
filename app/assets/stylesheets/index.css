@@ -2,4 +2,22 @@
     width: 100%;
     max-width: 760px;
     margin: 0 auto;
+    text-align: center;
+    border: solid;
+}
+
+p{
+    margin-top: 32px;
+    font-size: 24px;
+}
+img{
+    max-width: 500px;
+}
+
+input{
+    width: 200px;
+    border-radius: 20px;
+    padding: 8px 0;
+    margin: 32px;
+    background-color: #0695F0;
 }
