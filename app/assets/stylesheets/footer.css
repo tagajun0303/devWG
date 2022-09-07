@@ -4,3 +4,135 @@ footer p{
 footer{
     width: 100%;
 }
+.leaf {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @keyframes fall {
+    to {
+      top: 120%;
+    }
+  }
+  
+  @keyframes sway1 {
+    from {
+      transform: translateX(0px) rotate(0deg);
+    }
+    to {
+      transform: translateX(200px) rotate(-45deg);
+    }
+  }
+  
+  @keyframes sway2 {
+    from {
+      transform: translateX(200px) rotate(-45deg);
+    }
+    to {
+      transform: translateX(0px) rotate(0deg);
+    }
+  }
+
+  .leaf li{
+    position: absolute;
+    list-style: none;
+    top: -50px;
+    background: #47ff76;
+    border-radius: 0% 70%;
+  }
+  
+  .leaf li:nth-child(1){
+    left: 0%;
+    top: -60px;
+    width: 24px;
+    height: 15px;
+    background-color: #ffbf00;
+    animation: fall 10s linear infinite,
+               sway1 3s ease-in-out infinite alternate;
+    animation-delay: 2s;
+  }
+  
+  .leaf li:nth-child(2){
+    left: 5%;
+    top: -70px;
+    width: 13px;
+    height: 9px;
+    background-color: #009926;
+    animation: fall 15s linear infinite,
+               sway1 2s ease-in-out infinite alternate;
+    animation-delay: 8s;
+  }
+  
+  .leaf li:nth-child(3){
+    left: 15%;
+    top: -50px;
+    width: 16px;
+    height: 10px;
+    background-color: #c2704e;
+    animation: fall 9s linear infinite,
+               sway1 3.5s ease-in-out infinite alternate;
+    animation-delay: 13s;
+  }
+  
+  .leaf li:nth-child(4){
+    left: 30%;
+    top: -70px;
+    width: 16px;
+    height: 10px;
+    background-color: #ffbf00;
+    animation: fall 8s linear infinite,
+               sway2 4s ease-in-out infinite alternate;
+    animation-delay: 7s;
+  }
+  .leaf li:nth-child(5){
+    left: 40%;
+    top: -60px;
+    width: 16px;
+    height: 10px;
+    animation: fall 10s linear infinite,
+               sway1 4s ease-in-out infinite alternate;
+    animation-delay: 0s;
+  }
+  .leaf li:nth-child(6){
+    left: 55%;
+    top: -50px;
+    width: 24px;
+    height: 15px;
+    background-color: #009926;
+    animation: fall 11s linear infinite,
+               sway2 3s ease-in-out infinite alternate;
+    animation-delay: 3s;
+  }
+  .leaf li:nth-child(7){
+    left: 65%;
+    top: -40px;
+    width: 16px;
+    height: 10px;
+    animation: fall 7s linear infinite,
+               sway2 3.5s ease-in-out infinite alternate;
+    animation-delay: 7s;
+  }
+  .leaf li:nth-child(8){
+    left: 50%;
+    top: -60px;
+    width: 13px;
+    height: 9px;
+    background-color: #c2704e;
+    animation: fall 7s linear infinite,
+               sway1 3s ease-in-out infinite alternate;
+    animation-delay: 3s;
+  }
+  .leaf li:nth-child(9){
+    left: 80%;
+    top: -70px;
+    width: 16px;
+    height: 10px;
+    animation: fall 10s linear infinite,
+               sway2 4s ease-in-out infinite alternate;
+    animation-delay: 4s;
+  }  
