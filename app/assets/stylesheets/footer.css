@@ -16,7 +16,7 @@ footer{
   }
   @keyframes fall {
     to {
-      top: 120%;
+      top: 50%;
     }
   }
   
