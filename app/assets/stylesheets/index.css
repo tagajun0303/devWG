@@ -52,7 +52,7 @@ input{
     
     100% {
       opacity: 1;
-      bottom: -200px;
+      bottom: -400px;
     }
 }
   
@@ -89,7 +89,7 @@ input{
     width: 21px;
     height: 24px;
     border-radius: 50%;
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     bottom: 0;
