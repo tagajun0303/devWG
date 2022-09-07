@@ -31,7 +31,7 @@ footer{
   
   @keyframes sway2 {
     from {
-      transform: translateX(120px) rotate(0deg);
+      transform: translateX(100px) rotate(0deg);
     }
     to {
       transform: translateX(0px) rotate(0deg);
