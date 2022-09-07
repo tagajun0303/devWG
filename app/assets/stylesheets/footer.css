@@ -2,7 +2,7 @@ footer p{
     text-align: center;
 }
 footer{
-    width: 100%;
+    width: 500px;
 }
 .leaf {
     position: absolute;
@@ -128,7 +128,7 @@ footer{
     animation-delay: 3s;
   }
   .leaf li:nth-child(9){
-    left: 80%;
+    left: 50%;
     top: -70px;
     width: 16px;
     height: 10px;
